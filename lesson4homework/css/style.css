@@ -1,0 +1,44 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+* {
+	color:gold;
+}
+
+.header p {
+	color:black;
+}
+
+div > h3 {
+	color:red;
+}
+
+a {
+	color:magenta;
+}
+
+div > .cheetah-p > span {
+	color:blue;
+}
+div > .jaguar-p > span {
+	color:blue;
+}
+div > .tiger-p > span {
+	color:blue;
+}
+
+.list-top {
+	color:black;
+}
+
+[class*="-list"] > li {
+	color:crimson;
+}
+
+ol + p {
+	color:white;
+}
+
+#footer-links, #back {
+	color:black;
+}
